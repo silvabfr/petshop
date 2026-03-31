@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contato.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Contato - PetShop</title>
+</head>
+<body>
+<div class="td">
+    <a href="index.html" class="btn-voltar">Voltar⬅️</a>
+    <div class="tt1">Fale Conosco</div>
+    <p class="txt1">Entre em contato conosco para saber mais sobre nossos serviços!</p>
+</div>
+
+<div class="formulario">
+    <h2>Envie sua mensagem</h2>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone">
+
+        <label for="assunto">Assunto:</label>
+        <select id="assunto" name="assunto" required>
+            <option value="">Escolha um assunto</option>
+            <option value="servicos">Informações sobre Serviços</option>
+            <option value="produtos">Informações sobre Produtos</option>
+            <option value="agendamento">Agendamento</option>
+            <option value="reclamacao">Reclamação</option>
+            <option value="outro">Outro</option>
+        </select>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+
+<div class="informacoes">
+    <h2>Nossas Informações</h2>
+    <p><strong>Telefone</strong> <br>(21) 99841-5003</p>
+    <p><strong>Email</strong> <br>lucasdaviwilson12@gmail.com</p>
+    <p><strong>Endereço</strong> <br>...</p>
+    <p><strong>Horário de Funcionamento</strong>
+   <br>...
+ </p>
+</div>
+
+</body>
+</html>

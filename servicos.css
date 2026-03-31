@@ -1,0 +1,72 @@
+body{
+    background-color: bisque;
+    margin: 0px;
+    animation: fadein 1.5s;
+    font-family: poppins, sans-serif;
+
+}
+/* Botão de voltar */
+.btn-voltar {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 20px;
+    margin: 20px ;   
+    font-family: poppins;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    width: 60px;
+    text-align: center;
+}
+
+.btn-voltar:hover {
+    background-color: rgb(255, 200, 124);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    height: 300px;
+    width: auto;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.2);
+}
+.tt{
+    font-size: 45px;
+    text-align: center;
+}
+.txt{
+    font-size: 20px;
+    text-align: center;
+}
+.tt1{
+    font-size: 65px;
+    text-align: center;
+    font-style: italic  ;
+    margin-top: -90px;
+    margin-right: auto ;
+    background-color: rgb(255, 211, 157);
+}
+.txt1{
+    font-size: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -70px;
+    margin-right: auto;
+    font-style: italic;
+    background-color: rgb(255, 211, 157);
+}
+@keyframes fadein{
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 1;}
+}
