@@ -1,0 +1,192 @@
+/* Estilos da página de contato */
+body {
+    background-color: bisque;
+    margin: 0px;
+    animation: fadein 1.5s;
+    font-family: poppins, sans-serif;
+}
+
+/* Botão de  */
+.btn-voltar {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 20px;
+    margin: 20px;
+    font-family: poppins;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.btn-voltar:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    color: rgb(0, 0, 0);
+}
+
+/* Título principal */
+.tt1 {
+    font-size: 65px;
+    text-align: center;
+    font-style: italic;
+    margin-top: -90px;
+    margin-right: auto;
+    background-color: rgb(255, 211, 157);
+    padding: 15px;
+    animation: fadein 1.5s;
+}
+
+/* Texto de introdução */
+.txt1 {
+    font-size: 13px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    font-style: italic;
+    background-color: rgb(255, 211, 157);
+    padding: 10px;
+    animation: fadein 1.5s;
+}
+
+/* Container principal */
+.td {
+    animation: fadein 1.5s;
+}
+
+/* Estilos do formulário */
+.formulario {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: rgb(255, 222, 179);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    animation: fadein 1.5s;
+}
+
+.formulario h2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: poppins;
+    color: #333;
+    margin-top: 0;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label {
+    font-family: poppins;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;
+}
+
+.formulario input,
+.formulario textarea,
+.formulario select {
+    padding: 12px;
+    border: 2px solid rgb(255, 200, 124);
+    border-radius: 10px;
+    font-family: poppins;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+.formulario input:focus,
+.formulario textarea:focus,
+.formulario select:focus {
+    outline: none;
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.formulario button {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgb(255, 180, 100);
+    border: none;
+    border-radius: 10px;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.formulario button:hover {
+    background-color: rgb(255, 160, 70);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Estilos das informações de contato */
+.informacoes {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: rgb(255, 222, 179);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    animation: fadein 1.5s;
+    text-align: center;
+}
+
+.informacoes h2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: poppins;
+    color: #333;
+    margin-top: 0;
+}
+
+.informacoes p {
+    font-family: poppins;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.8;
+    margin: 12px 0;
+}
+
+/* Animação de fade in */
+@keyframes fadein {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 1; }
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .tt1 {
+        font-size: 45px;
+        margin-top: -50px;
+    }
+
+    .txt1 {
+        font-size: 14px;
+        margin-top: -40px;
+    }
+
+    .formulario,
+    .informacoes {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .formulario h2,
+    .informacoes h2 {
+        font-size: 28px;
+    }
+}
